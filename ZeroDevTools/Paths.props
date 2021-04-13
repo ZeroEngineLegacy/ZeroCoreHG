@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="UserMacros">
+    <ZeroSource>$(SolutionDir)..\</ZeroSource>
+    <ZERO_SOURCE>$(ZeroSource)</ZERO_SOURCE>
+    <ZilchSource>$(ZeroSource)\Zilch</ZilchSource>
+    <ZILCH_SOURCE>$(ZilchSource)</ZILCH_SOURCE>
+    <ZeroExtensionLibrariesSource>$(ZeroSource)\ExtensionLibraries</ZeroExtensionLibrariesSource>
+    <ZeroStandardLibrariesSource>$(ZeroExtensionLibrariesSource)\StandardLibraries</ZeroStandardLibrariesSource>
+    <ZERO_OUTPUT>$(SolutionDir)\BuildOutput</ZERO_OUTPUT>
+  </PropertyGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="exists('LocalPaths.props')" Project="LocalPaths.props" />
+  </ImportGroup>
+</Project>

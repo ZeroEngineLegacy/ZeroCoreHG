@@ -1,0 +1,46 @@
+# use glob syntax.
+syntax: glob
+
+# visual studio files
+*.ncb
+*.suo
+*.user
+*.orig
+*.db
+*.sdf
+*.opensdf
+*.ipch
+
+ZeroDoc/LocalBuildEnvironment.cmd
+BuildMaker/LocalBuildEnvironment.cmd
+ZeroCrashHandler/ZeroCrashHandler/bin/
+ZeroCrashHandler/ZeroCrashHandler/obj/
+SourceIndexer/SourceIndexer/bin/
+SourceIndexer/SourceIndexer/obj/
+ErrorDialog/bin/*
+ErrorDialog/obj/*
+ImageDiffer/ImageDiffer/Release/*
+ImageDiffer/SharedUtilities/Release/*
+IntersectionGenerator/EnumDeclaration/Release/*
+IntersectionGenerator/IntersectionGenerator/Release/*
+IntersectionGenerator/SharedUtilities/Release/*
+ZeroDoc/Source/Release/*
+ZeroDoc/TinyXml/Release/*
+ZeroLauncherVersionIdUpdater/bin/*
+ZeroLauncherVersionIdUpdater/obj/*
+ZeroZilchPlugins/ZeroZilchPlugins/obj/
+ZeroZilchPlugins/packages/
+ZeroZilchPlugins/ZeroZilchPlugins/bin/
+ZeroZilchPlugins/Templates/bin/
+ZeroZilchPlugins/Templates/obj/
+ZeroDoc/curl/src/DLL-Debug/
+ZeroDoc/curl/lib/DLL-Debug/
+PatchZeroBadUrls/PatchZeroBadUrls/obj/
+PatchZeroBadUrls/PatchZeroBadUrls/bin/
+BuildOutput
+Debug_why/TinyXml.pdb
+DocGenerator.exe
+ZeroDoc/TinyXml/Debug/*
+ZeroDoc/Source/Debug/*
+Debug_why/TinyXml.lib
+*.opendb

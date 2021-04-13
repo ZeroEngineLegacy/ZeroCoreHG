@@ -1,0 +1,2 @@
+call SetUpBuildEnvironment
+IntersectionGenerator.sln

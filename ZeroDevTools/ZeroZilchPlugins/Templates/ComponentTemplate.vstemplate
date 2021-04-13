@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Zero Component</Name>
+    <Description>A component that can be attached to game objects.</Description>
+    <Icon>Zero.ico</Icon>
+    <TemplateID>d4405b7c-f5df-4073-9335-75ce60dffb3c</TemplateID>
+    <ProjectType>VC</ProjectType>
+    <DefaultName>CustomComponent.cpp</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem TargetFileName="$fileinputname$.hpp" ReplaceParameters="true">Component.hpp</ProjectItem>
+    <ProjectItem TargetFileName="$fileinputname$.cpp" ReplaceParameters="true">Component.cpp</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

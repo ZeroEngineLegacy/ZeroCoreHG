@@ -1,0 +1,218 @@
+RawTypedefLibrary = 
+{
+  Array TypedefArray =
+  [
+    {
+      string Type = "&",
+      Array Definition =
+      [
+      ],
+      Object Namespace =
+      {
+        Array Names =
+        [
+        ],
+      },
+    },
+    {
+      Array Type = "*",
+      Array Definition =
+      [
+      ],
+      Object Namespace =
+      {
+        Array Names =
+        [
+        ],
+      },
+    },
+    {
+      string Type = "override",
+      Array Definition =
+      [
+      ],
+      Object Namespace =
+      {
+        Array Names =
+        [
+        ],
+      },
+    },
+    {
+      string Type = "StringRef",
+      Array Definition =
+      [
+        {
+          string Text = "string",
+          string Type = "Identifier",
+        },
+      ],
+      Object Namespace =
+      {
+        Array Names =
+        [
+        ],
+      },
+    },
+    {
+      string Type = "String",
+      Array Definition =
+      [
+        {
+          string Text = "string",
+          string Type = "Identifier",
+        },
+      ],
+      Object Namespace =
+      {
+        Array Names =
+        [
+        ],
+      },
+    },
+    {
+      string Type = "Vec2Param",
+      Array Definition =
+      [
+        {
+          string Text = "Vec2",
+          string Type = "Identifier",
+        },
+      ],
+      Object Namespace =
+      {
+        Array Names =
+        [
+        ],
+      },
+    },
+    {
+      string Type = "Vec3Param",
+      Array Definition =
+      [
+        {
+          string Text = "Vec3",
+          string Type = "Identifier",
+        },
+      ],
+      Object Namespace =
+      {
+        Array Names =
+        [
+        ],
+      },
+    },
+    {
+      string Type = "Vec4Param",
+      Array Definition =
+      [
+        {
+          string Text = "Vec4",
+          string Type = "Identifier",
+        },
+      ],
+      Object Namespace =
+      {
+        Array Names =
+        [
+        ],
+      },
+    },
+    {
+      string Type = "float",
+      Array Definition =
+      [
+        {
+          string Text = "real",
+          string Type = "Identifier",
+        },
+      ],
+      Object Namespace =
+      {
+        Array Names =
+        [
+        ],
+      },
+    },
+    {
+      string Type = "ProxyContactPoint",
+      Array Definition =
+      [
+        {
+          string Text = "ContactPoint",
+          string Type = "Identifier",
+        },
+      ],
+      Object Namespace =
+      {
+        Array Names =
+        [
+        ],
+      },
+    },
+    {
+      string Type = "ProxyContactPointRange",
+      Array Definition =
+      [
+        {
+          string Text = "ContactPointRange",
+          string Type = "Identifier",
+        },
+      ],
+      Object Namespace =
+      {
+        Array Names =
+        [
+        ],
+      },
+    },
+    {
+      string Type = "uint",
+      Array Definition =
+      [
+        {
+          string Text = "Integer",
+          string Type = "Identifier",
+        },
+      ],
+      Object Namespace =
+      {
+        Array Names =
+        [
+        ],
+      },
+    },
+    {
+      string Type = "int",
+      Array Definition =
+      [
+        {
+          string Text = "Integer",
+          string Type = "Identifier",
+        },
+      ],
+      Object Namespace =
+      {
+        Array Names =
+        [
+        ],
+      },
+    },
+    {
+      string Type = "float",
+      Array Definition =
+      [
+        {
+          string Text = "Real",
+          string Type = "Identifier",
+        },
+      ],
+      Object Namespace =
+      {
+        Array Names =
+        [
+        ],
+      },
+    },
+  ],
+},

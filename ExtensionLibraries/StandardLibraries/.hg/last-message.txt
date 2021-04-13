@@ -1,0 +1,1 @@
+Moved some function call results into variables instead of inside other function calls to aid debugging.-

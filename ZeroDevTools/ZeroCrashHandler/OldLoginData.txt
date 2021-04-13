@@ -1,0 +1,22 @@
+		// Fog bugz settings data
+		const String URL = "http://zeroengine0.digipen.edu/api.asp";
+		const String FBUsername = "leveldesigner2d";
+		const String FBPassword = "letmein";
+		const String Title = "Crash";
+		const String Project = "Gat250";
+		const String Priority = "1 - Must Fix";
+
+		// Email settings data
+		const String EUsername = "ZeroEngineTeam";
+		const String EPassword = "lotsofforloops";
+		const String From = "crash@zeroengine0.digipen.edu";
+		const String To = "ZeroEngineTeam@gmail.com";
+		const String Host = "smtp.gmail.com";
+		const int Port = 587;
+		const bool SSL = true;
+
+		// Php settings data
+		const String PhpUrl = "https://faculty.digipen.edu/~tsundburg/crash.php";
+		const String PhpFileId = "userfile";
+		const String PhpEmailId = "email";
+		const String PhpBodyId = "body";

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Zilch Class</Name>
+    <Description>A generic class that can be constructed, destructed, and referenced by Zilch.</Description>
+    <Icon>Zero.ico</Icon>
+    <TemplateID>d3405b7d-f5df-4079-9331-35ce60dafb3d</TemplateID>
+    <ProjectType>VC</ProjectType>
+    <DefaultName>CustomClass.cpp</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem TargetFileName="$fileinputname$.hpp" ReplaceParameters="true">Class.hpp</ProjectItem>
+    <ProjectItem TargetFileName="$fileinputname$.cpp" ReplaceParameters="true">Class.cpp</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

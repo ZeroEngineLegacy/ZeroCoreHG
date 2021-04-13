@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DebugPrint.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Precompiled.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="WikiOperations.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Parsing.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXmlHelpers.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="RawDocumentation.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="DocConfiguration.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkupWriter.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroDatabase.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="DocTypeTokens.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="DocTypeParser.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroDocTests.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Precompiled.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="WikiOperations.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Parsing.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXmlHelpers.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RawDocumentation.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkupWriter.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MacroDatabase.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DocTypeTokens.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DocTypeParser.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MacroDocTests.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DocTypeTokens.inl">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="DocTypeKeywords.inl">
+      <Filter>Source</Filter>
+    </None>
+  </ItemGroup>
+</Project>

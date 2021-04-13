@@ -1,0 +1,8 @@
+C:\ZeroSourceTest\ZeroCore\ZeroDevTools\ZeroLauncherVersionIdUpdater\bin\Debug\ZeroLauncherVersionIdUpdater.exe.config
+C:\ZeroSourceTest\ZeroCore\ZeroDevTools\ZeroLauncherVersionIdUpdater\bin\Debug\ZeroLauncherVersionIdUpdater.exe
+C:\ZeroSourceTest\ZeroCore\ZeroDevTools\ZeroLauncherVersionIdUpdater\bin\Debug\ZeroLauncherVersionIdUpdater.pdb
+C:\ZeroSourceTest\ZeroCore\ZeroDevTools\ZeroLauncherVersionIdUpdater\bin\Debug\CommandLine.dll
+C:\ZeroSourceTest\ZeroCore\ZeroDevTools\ZeroLauncherVersionIdUpdater\obj\Debug\ZeroLauncherVersionIdUpdater.csprojResolveAssemblyReference.cache
+C:\ZeroSourceTest\ZeroCore\ZeroDevTools\ZeroLauncherVersionIdUpdater\obj\Debug\ZeroLauncherVersionIdUpdater.exe
+C:\ZeroSourceTest\ZeroCore\ZeroDevTools\ZeroLauncherVersionIdUpdater\obj\Debug\ZeroLauncherVersionIdUpdater.pdb
+C:\ZeroSourceTest\ZeroCore\ZeroDevTools\ZeroLauncherVersionIdUpdater\bin\Debug\ZeroLauncherInstallerPatch.iss

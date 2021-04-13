@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntersectionGenerator", "IntersectionGenerator\IntersectionGenerator.vcxproj", "{9A6E4795-3B62-468F-8B03-DA9FEA6B464C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DBE8E33A-7E70-402C-BCF6-D1EFEE93FA76} = {DBE8E33A-7E70-402C-BCF6-D1EFEE93FA76}
+		{767A1157-B18F-478E-B580-F6F624F9282A} = {767A1157-B18F-478E-B580-F6F624F9282A}
+		{3A62CE69-835E-4D16-86C2-5326625A18BC} = {3A62CE69-835E-4D16-86C2-5326625A18BC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EnumDeclaration", "EnumDeclaration\EnumDeclaration.vcxproj", "{31EABB58-DEAB-4A59-91DC-CE7B18D5DC12}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DBE8E33A-7E70-402C-BCF6-D1EFEE93FA76} = {DBE8E33A-7E70-402C-BCF6-D1EFEE93FA76}
+		{767A1157-B18F-478E-B580-F6F624F9282A} = {767A1157-B18F-478E-B580-F6F624F9282A}
+		{3A62CE69-835E-4D16-86C2-5326625A18BC} = {3A62CE69-835E-4D16-86C2-5326625A18BC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SharedUtilities", "SharedUtilities\SharedUtilities.vcxproj", "{9E1559FE-708C-4ADF-B302-EE0491C74FBE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "..\..\ExtensionLibraries\StandardLibraries\Common\Common.vcxproj", "{3A62CE69-835E-4D16-86C2-5326625A18BC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsPlatform", "..\..\ExtensionLibraries\StandardLibraries\Platform\Windows\WindowsPlatform.vcxproj", "{DBE8E33A-7E70-402C-BCF6-D1EFEE93FA76}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Math", "..\..\ExtensionLibraries\StandardLibraries\Math\Math.vcxproj", "{767A1157-B18F-478E-B580-F6F624F9282A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A6E4795-3B62-468F-8B03-DA9FEA6B464C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9A6E4795-3B62-468F-8B03-DA9FEA6B464C}.Debug|Win32.Build.0 = Debug|Win32
+		{9A6E4795-3B62-468F-8B03-DA9FEA6B464C}.Release|Win32.ActiveCfg = Release|Win32
+		{9A6E4795-3B62-468F-8B03-DA9FEA6B464C}.Release|Win32.Build.0 = Release|Win32
+		{31EABB58-DEAB-4A59-91DC-CE7B18D5DC12}.Debug|Win32.ActiveCfg = Debug|Win32
+		{31EABB58-DEAB-4A59-91DC-CE7B18D5DC12}.Debug|Win32.Build.0 = Debug|Win32
+		{31EABB58-DEAB-4A59-91DC-CE7B18D5DC12}.Release|Win32.ActiveCfg = Release|Win32
+		{31EABB58-DEAB-4A59-91DC-CE7B18D5DC12}.Release|Win32.Build.0 = Release|Win32
+		{9E1559FE-708C-4ADF-B302-EE0491C74FBE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9E1559FE-708C-4ADF-B302-EE0491C74FBE}.Debug|Win32.Build.0 = Debug|Win32
+		{9E1559FE-708C-4ADF-B302-EE0491C74FBE}.Release|Win32.ActiveCfg = Release|Win32
+		{9E1559FE-708C-4ADF-B302-EE0491C74FBE}.Release|Win32.Build.0 = Release|Win32
+		{3A62CE69-835E-4D16-86C2-5326625A18BC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A62CE69-835E-4D16-86C2-5326625A18BC}.Debug|Win32.Build.0 = Debug|Win32
+		{3A62CE69-835E-4D16-86C2-5326625A18BC}.Release|Win32.ActiveCfg = Release|Win32
+		{3A62CE69-835E-4D16-86C2-5326625A18BC}.Release|Win32.Build.0 = Release|Win32
+		{DBE8E33A-7E70-402C-BCF6-D1EFEE93FA76}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DBE8E33A-7E70-402C-BCF6-D1EFEE93FA76}.Debug|Win32.Build.0 = Debug|Win32
+		{DBE8E33A-7E70-402C-BCF6-D1EFEE93FA76}.Release|Win32.ActiveCfg = Release|Win32
+		{DBE8E33A-7E70-402C-BCF6-D1EFEE93FA76}.Release|Win32.Build.0 = Release|Win32
+		{767A1157-B18F-478E-B580-F6F624F9282A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{767A1157-B18F-478E-B580-F6F624F9282A}.Debug|Win32.Build.0 = Debug|Win32
+		{767A1157-B18F-478E-B580-F6F624F9282A}.Release|Win32.ActiveCfg = Release|Win32
+		{767A1157-B18F-478E-B580-F6F624F9282A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

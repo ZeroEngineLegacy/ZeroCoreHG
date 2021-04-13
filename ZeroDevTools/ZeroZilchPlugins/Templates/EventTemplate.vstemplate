@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Zero Event</Name>
+    <Description>An event can be sent and received by any game object/component.</Description>
+    <Icon>Zero.ico</Icon>
+    <TemplateID>b1205b7d-44df-4013-8335-65ce60dffb3c</TemplateID>
+    <ProjectType>VC</ProjectType>
+    <DefaultName>CustomEvent.cpp</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem TargetFileName="$fileinputname$.hpp" ReplaceParameters="true">Event.hpp</ProjectItem>
+    <ProjectItem TargetFileName="$fileinputname$.cpp" ReplaceParameters="true">Event.cpp</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
